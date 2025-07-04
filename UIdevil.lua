@@ -1344,7 +1344,7 @@ function MakeWindow(Configs)
   end
   
 
-  MinimizeButton({
+--[[  MinimizeButton({
     Image = "rbxassetid://96879273042927",
     Size = {40, 40},
     Color = Color3.fromRGB(15, 15, 15),
@@ -1376,5 +1376,5 @@ MakeWindow({
 
 local Main = MakeTab({Name = "Main"})
 
-local section = AddSection(Main, {" Boss"})
+local section = AddSection(Main, {" Boss"})]]
 
